@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora de tiempo de fallecimiento</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <h1>Calculadora de tiempo de fallecimiento</h1>
+    <form>
+      
+      <label for="tempRectal">Temperatura rectal cadavérica:</label>
+      <input type="number" id="tempRectal" name="tempRectal" step="0.1" required>
+      
+
+      <button type="button" onclick="calcularTiempo()">Calcular tiempo de fallecimiento</button>
+    </form>
+    
+    <p id="resultado"></p>
+    
+    <script src="./js/script.js"></script>
+  </body>
+</html>
